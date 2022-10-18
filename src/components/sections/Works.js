@@ -41,8 +41,8 @@ const allData = [
     id: 3,
     title: "Online News App",
     category: "design",
-    image: "images/works/3.svg",
-    popupLink: ["https://www.youtube.com/watch?v=qf9z4ulfmYw"],
+    image: "newimages/NewsappDesign.jpg",
+    popupLink: ["newimages/NewsappDesign.jpg"],
   },
   {
     id: 4,
@@ -65,8 +65,16 @@ const allData = [
     id: 6,
     title: "GoldSpot",
     category: "design",
-    image: "images/works/6.svg",
-    link: "https://dribbble.com",
+    image: "newimages/goldspot/Goldspot.jpg",
+    popupLink: [
+      "newimages/goldspot/Goldspot.jpg",
+      "newimages/goldspot/Frame 1.jpg",
+    "newimages/goldspot/Group 81.jpg",
+    "newimages/goldspot/iPhone 12 Pro.jpg",
+    "newimages/goldspot/iPhone 13 Pro.jpg",
+    "newimages/goldspot/iPhone 13.jpg",
+
+  ],
   },
   {
     id: 7,
