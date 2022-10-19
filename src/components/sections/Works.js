@@ -23,8 +23,8 @@ const allData = [
     id: 1,
     title: "Dental Ecommerce App",
     category: "design",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
+    image: "newimages/Qdent.png",
+    popupLink: ["newimages/Qdent.png"],
   },
   {
     id: 2,
@@ -78,10 +78,10 @@ const allData = [
   },
   {
     id: 7,
-    title: "Event Management Notifier ",
+    title: "Event Management Notifier",
     category: "design",
-    image: "images/works/3.svg",
-    link: "https://pinterest.com",
+    image: "newimages/BuzzMain.png",
+    popupLink: ["newimages/BuzzMain.png","newimages/buzz.png"],
   },
   {
     id: 8,
@@ -114,9 +114,9 @@ const allData = [
   {
     id: 12,
     title: "Oboarding Screens",
-    category: "development",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
+    category: "design",
+    image: "newimages/onboarding/thumbnail.png",
+    popupLink: ["newimages/onboarding/record.mov "],
   },
   {
     id: 13,
