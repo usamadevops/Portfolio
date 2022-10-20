@@ -30,11 +30,9 @@ const allData = [
     id: 2,
     title: "BloodDonor App",
     category: "design",
-    image: "images/works/2.svg",
+    image: "newimages/blooddonor.jpg",
     popupLink: [
-      "images/works/2.svg",
-      "images/works/5.svg",
-      "images/works/6.svg",
+      "newimages/blooddonor.jpg",
     ],
   },
   {
@@ -50,16 +48,15 @@ const allData = [
     category: "design",
     image: "images/works/4.svg",
     popupLink: [
-      "https://www.youtube.com/watch?v=URVHRhBSjj8",
-      "https://www.youtube.com/watch?v=qf9z4ulfmYw",
+   
     ],
   },
   {
     id: 5,
     title: "Social Network App",
     category: "design",
-    image: "images/works/5.svg",
-    popupLink: ["images/works/5.svg"],
+    image: "newimages/socialnetwork/SN1.png",
+    popupLink: ["newimages/socialnetwork/SN1.png"],
   },
   {
     id: 6,
