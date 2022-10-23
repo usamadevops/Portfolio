@@ -46,9 +46,9 @@ const allData = [
     id: 4,
     title: "LotVector Web & App",
     category: "design",
-    image: "images/works/4.svg",
+    image: "newimages/findrapp.png",
     popupLink: [
-   
+      "newimages/findrapp.png",
     ],
   },
   {
@@ -77,16 +77,10 @@ const allData = [
     id: 7,
     title: "Event Management Notifier",
     category: "design",
-    image: "newimages/BuzzMain.png",
-    popupLink: ["newimages/BuzzMain.png","newimages/buzz.png"],
+    image: "newimages/buzzlife.png",
+    popupLink: ["newimages/buzzlife.png","newimages/BuzzMain.png","newimages/buzz.png"],
   },
-  {
-    id: 8,
-    title: "Rate me",
-    category: "design",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
-  },
+  
   {
     id: 9,
     title: "GoldSpot in React Native",
@@ -98,8 +92,8 @@ const allData = [
     id: 10,
     title: "Online News Application",
     category: "development",
-    image: "images/works/6.svg",
-    link: "https://dribbble.com",
+    image: "newimages/News/thumb.jpg",
+    popupLink: ["newimages/News/demo.mov"],
   },
   {
     id: 11,
@@ -126,7 +120,7 @@ const allData = [
 
 function Works() {
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(6);
+  const [dataVisibleCount, setDataVisibleCount] = useState(11);
   const [dataIncrement] = useState(3);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -134,7 +128,7 @@ function Works() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 6));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 11));
   }, [getAllItems]);
 
   const handleChange = (e) => {
@@ -212,7 +206,7 @@ function Works() {
         </div>
         {/* End Portfolio Items */}
 
-        <div className="load-more text-center mt-4">
+        {/* <div className="load-more text-center mt-4">
           <button
             className="btn btn-default"
             onClick={handleLoadmore}
@@ -226,7 +220,7 @@ function Works() {
               </span>
             )}
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
