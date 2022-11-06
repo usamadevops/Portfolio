@@ -60,9 +60,7 @@ function HomepageDark() {
         <Element name="section-brandlogos">
           <BrandlogosDark />
         </Element>
-        <Element name="section-blogs">
-          <Blogs />
-        </Element>
+        
         <Element name="section-contact">
           <Contact />
         </Element>

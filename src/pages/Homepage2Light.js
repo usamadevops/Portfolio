@@ -61,9 +61,7 @@ function Homepage2Light() {
         <Element name="section-brandlogos">
           <Brandlogos />
         </Element>
-        <Element name="section-blogs">
-          <Blogs />
-        </Element>
+        
         <Element name="section-contact">
           <Contact />
         </Element>
