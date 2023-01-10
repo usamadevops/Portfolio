@@ -33,7 +33,7 @@ const sliderData = [
 function Testimonials() {
   const slidetSettings = {
     dots: true,
-    arrows: false,
+    arrows: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,

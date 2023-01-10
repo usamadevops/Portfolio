@@ -57,9 +57,9 @@ function HomepageDark() {
         <Element name="section-testimoninal">
           <Testimonials />
         </Element>
-        <Element name="section-brandlogos">
+        {/* <Element name="section-brandlogos">
           <BrandlogosDark />
-        </Element>
+        </Element> */}
         
         <Element name="section-contact">
           <Contact />
