@@ -10,7 +10,7 @@ const allBlogs = [
     image: "images/blog/1.svg",
     filesource: "../../blogs/best-app-development-tool.md",
     date: "09 February, 2020",
-    author: "Bolby",
+    author: "usama",
     category: "Reviews",
   },
   {
@@ -19,7 +19,7 @@ const allBlogs = [
     image: "images/blog/2.svg",
     filesource: "../../blogs/common-misconceptions-about-payment.md",
     date: "07 February, 2020",
-    author: "Bolby",
+    author: "usama",
     category: "Tutorial",
   },
   {
@@ -28,7 +28,7 @@ const allBlogs = [
     image: "images/blog/3.svg",
     filesource: "../../blogs/things-to-know-about-startup-business.md",
     date: "06 February, 2020",
-    author: "Bolby",
+    author: "usama",
     category: "Business",
   },
   {
@@ -37,7 +37,7 @@ const allBlogs = [
     image: "images/blog/1.svg",
     filesource: "../../blogs/best-app-development-tool.md",
     date: "09 February, 2020",
-    author: "Bolby",
+    author: "usama",
     category: "Reviews",
   },
   {
@@ -46,7 +46,7 @@ const allBlogs = [
     image: "images/blog/2.svg",
     filesource: "../../blogs/common-misconceptions-about-payment.md",
     date: "07 February, 2020",
-    author: "Bolby",
+    author: "usama",
     category: "Tutorial",
   },
   {
@@ -55,7 +55,7 @@ const allBlogs = [
     image: "images/blog/3.svg",
     filesource: "../../blogs/things-to-know-about-startup-business.md",
     date: "06 February, 2020",
-    author: "Bolby",
+    author: "usama",
     category: "Business",
   },
   {
@@ -64,7 +64,7 @@ const allBlogs = [
     image: "images/blog/1.svg",
     filesource: "../../blogs/best-app-development-tool.md",
     date: "09 February, 2020",
-    author: "Bolby",
+    author: "usama",
     category: "Reviews",
   },
   {
@@ -73,7 +73,7 @@ const allBlogs = [
     image: "images/blog/2.svg",
     filesource: "../../blogs/common-misconceptions-about-payment.md",
     date: "07 February, 2020",
-    author: "Bolby",
+    author: "usama",
     category: "Tutorial",
   },
   {
@@ -82,7 +82,7 @@ const allBlogs = [
     image: "images/blog/3.svg",
     filesource: "../../blogs/things-to-know-about-startup-business.md",
     date: "06 February, 2020",
-    author: "Bolby",
+    author: "usama",
     category: "Business",
   },
   {
@@ -91,7 +91,7 @@ const allBlogs = [
     image: "images/blog/1.svg",
     filesource: "../../blogs/best-app-development-tool.md",
     date: "09 February, 2020",
-    author: "Bolby",
+    author: "usama",
     category: "Reviews",
   },
 ];

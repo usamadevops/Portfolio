@@ -17,9 +17,9 @@ function Herosection(props) {
     <section id="home" className="home d-flex align-items-center">
       <div className="container">
         <div className="intro">
-          <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
+          <img src="images/avatar-1.svg" alt="Usama" className="mb-4" />
 
-          <h1 className="mb-2 mt-0">Bolby Doe</h1>
+          <h1 className="mb-2 mt-0">usama Doe</h1>
           <p>
             I'm a{" "}
             <Typed
