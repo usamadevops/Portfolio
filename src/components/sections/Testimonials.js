@@ -7,33 +7,41 @@ const sliderData = [
   {
     id: 1,
     avatar: "images/avatar-1.svg",
-    userName: "Shaheer Shahzad",
-    subtitle: "CEO Software Solutions",
+    userName:  "Sardar Yousaf MD",
+    subtitle: "UX Design Project",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "Working with Usama was a game-changer for our UX design. Their attention to detail and creativity exceeded our expectations. Highly recommend!",
   },
   {
     id: 2,
     avatar: "images/avatar-2.svg",
-    userName: "Ejaz Khan",
-    subtitle: "LotVector Founder",
+    userName: "Mark R.",
+    subtitle: "React Native App Development",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "Impressed with Usama's expertise in React Native. Our app turned out flawless. A reliable developer, highly recommended!",
   },
   {
     id: 3,
     avatar: "images/avatar-3.svg",
-    userName: "Mark Randell",
-    subtitle: "Sr. Product Designer",
+    userName:  "Emily S",
+    subtitle: "UI Design Consultation",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "Collaborating with Usama was eye-opening. Their design recommendations greatly improved user engagement. Top-notch UI expertise!",
+  },
+  {
+    id: 4,
+    avatar: "images/avatar-3.svg",
+    userName:  "David L",
+    subtitle: "React Native App Development",
+    review:
+      "Usama is a skilled and reliable React Native developer. They delivered a flawless app on time. Highly recommended!",
   },
 ];
 
 function Testimonials() {
   const slidetSettings = {
     dots: true,
-    arrows: true,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,

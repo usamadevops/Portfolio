@@ -6,7 +6,7 @@ import Skill from "../elements/Skill";
 
 const aboutContent = {
   name: "Usama Altaf",
-  avatarImage: "/images/usama.png",
+  avatarImage: "/images/usamanew.jpg",
   content:
     "I am Usama Altaf, UI/UX Designer & React Native Developer from Taxila, Pakistan. I have insoluble solution to problems and likes to solve them no matter the time it takes to do it.",
 };
@@ -67,7 +67,7 @@ function About() {
         <div className="row">
           <div className="col-md-3">
             <div className="text-center text-md-left">
-              <img src={aboutContent.avatarImage} alt={aboutContent.name} style={{width:150,height:150}} />
+              <img src={aboutContent.avatarImage} alt={aboutContent.name} style={{width:150,height:150,borderRadius:100}} />
             </div>
             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
           </div>
